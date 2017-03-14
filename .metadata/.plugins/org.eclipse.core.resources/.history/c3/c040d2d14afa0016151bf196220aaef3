@@ -1,0 +1,11 @@
+package com.facebook.SeleniumMaven;
+
+import org.testng.annotations.Test;
+
+public class SimpleTest extends WebDriverFactory{
+
+	@Test
+	public void TestOne(){
+		System.out.println("Hello");
+	}
+}

@@ -1,0 +1,29 @@
+package com.facebook.SeleniumMaven;
+
+import org.openqa.selenium.By;
+
+public class LandingPage extends BasePage{
+
+	private By usernameField;
+	private By passwordField;
+	private By loginButton;
+	
+	public LandingPage(){
+		usernameField = By.id("email");
+		passwordField = By.id("pass");
+		loginButton = By.id("u_0_q");
+	}
+
+	public void enterUserName() {
+
+	}
+
+	public void enterPassword() {
+
+	}
+	
+	public void clickOnButton() {
+
+	}
+
+}

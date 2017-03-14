@@ -1,0 +1,11 @@
+package com.facebook.SeleniumMaven;
+
+import org.openqa.selenium.By;
+
+public class LandingPage {
+
+	private By usernameField;
+	private By passwordField;
+	private By loginButton;
+	
+}
